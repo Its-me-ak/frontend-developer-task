@@ -15,7 +15,7 @@ const CollectionComponent = () => {
                 <div className='lg:px-16 px-2'>
                     <Navbar dark={true} />
                 </div>
-                <div className="large-text absolute w-[300px] h-[650px] top-20 text-white/[20%] left-12 text-9xl font-bold break-words">
+                <div className="large-text absolute w-[300px] h-[650px] top-20 text-white/[20%] lg:left-12 text-9xl font-bold break-words left-2">
                     <h1>ASTRIX</h1>
                     <h1 className="mt-5">COLLECTIBLE</h1>
                 </div>
