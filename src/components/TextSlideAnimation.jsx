@@ -6,7 +6,7 @@ const TextSlideAnimation = () => {
           <div className="container mx-auto max-w-7xl flex justify-center">
               <div className='slidetext '>
                   {/* Text and Image with slide animation */}
-                  <div className="slideTextOne flex items-center gap-4 relative">
+                  <div className="slideTextOne flex items-center flex-wrap gap-4 relative">
                       <h1 className="text-5xl font-bold uppercase">we</h1>
                       <img
                           src='./img/slideImg1.png'
@@ -18,7 +18,7 @@ const TextSlideAnimation = () => {
                       </h1>
                   </div>
 
-                  <div className="slideTextTwo flex items-center gap-4 mt-9 relative">
+                  <div className="slideTextTwo flex flex-wrap items-center gap-4 mt-9 relative">
                       <h1 className="text-5xl font-bold uppercase">connection</h1>
                       <img
                           src='./img/slideImg2.png'
@@ -28,7 +28,7 @@ const TextSlideAnimation = () => {
                       <div className="bg-[#fff4df] h-11 absolute right-12 animate2"></div>
                   </div>
 
-                  <div className="slideTextThree flex items-center gap-4 mt-9 relative">
+                  <div className="slideTextThree flex-wrap flex items-center gap-4 mt-9 relative">
                       <img
                           src='./img/slideImg3.png'
                           alt="slide 3"
@@ -45,7 +45,7 @@ const TextSlideAnimation = () => {
                       </div>
                   </div>
 
-                  <div className="slideTextFour flex items-center gap-4 mt-9 relative">
+                  <div className="slideTextFour flex-w\ flex items-center gap-4 mt-9 relative">
                       <h1 className="text-5xl font-bold uppercase">Artist</h1>
                       <img
                           src='./img/slideImg5.png'
@@ -65,7 +65,7 @@ const TextSlideAnimation = () => {
                       <div className="h-11 bg-[#fff4df] w-40 absolute -right-32 top-0"></div>
                   </div>
 
-                  <div className="slideTextFive flex items-center gap-4 mt-9">
+                  <div className="slideTextFive flex flex-wrap items-center gap-4 mt-9">
                       <img
                           src='./img/slideImg7.png'
                           alt="slide 7"
